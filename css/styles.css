@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to bottom,
+    #c8f3ea,
+    lightblue,
+    #7ebdf0,
+    #00a2ff
+    );
+  background-repeat: no-repeat;
+  color: #060646;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#users {
+  list-style-type: circle;
+  margin: 10px 0 0;
+}
+#users li {
+  border: 10px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#users p {
+  margin: 0;
+  margin-bottom: 2px;
+}
