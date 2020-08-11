@@ -13,14 +13,8 @@ body {
   font-size: 20px;
   line-height: 1.5;
   font-weight: bold;
-  background-image: linear-gradient(
-    to bottom,
-    #c8f3ea,
-    lightblue,
-    #7ebdf0,
-    #00a2ff
-    );
-  background-repeat: no-repeat;
+  background-image: url("../img/white-light-blue-abstract-background.jpg");
+  background-size: contain;
   color: #060646;
 }
 .container {
